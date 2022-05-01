@@ -1,5 +1,9 @@
 # Hello FLask
 
+## content
+
+- [Deploy to vercel](#deploy-to-vercel)
+
 ## set variables
 
 ```bat
@@ -38,7 +42,7 @@ then install required libraries(eg flask) and create a package file.
 
 `pip freeze > requirements.txt`
 
-## To Deploy at vercel
+## <span id="deploy-to-vercel">Deploy to vercel</span>
 
 1. create a vercel.json file with following content
 
@@ -56,6 +60,6 @@ then install required libraries(eg flask) and create a package file.
 }
 ```
 
-then install required libraries(eg flask) and create a package file.
+2. then install required libraries(eg flask) and create a package file.
 
-`pip freeze > requirements.txt`
+3. create requirements.txt file `pip freeze > requirements.txt`
